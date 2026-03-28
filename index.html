@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrawal Smart Classes | Patna's Trusted Coaching</title>
+    <title>Agarwal Smart Classes | Patna's Premium Coaching</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
@@ -12,11 +12,15 @@
 </head>
 <body>
 
+    <!-- Global Background Elements -->
+    <div class="bg-grid"></div>
+    <div class="bg-formulas"><i class="fas fa-square-root-variable"></i> <i class="fas fa-calculator"></i> <i class="fas fa-atom"></i></div>
+
     <!-- Header -->
     <header class="header" id="header">
         <div class="container header-container">
             <a href="#home" class="logo">
-                Agrawal <span>Smart Classes</span>
+                Agarwal <span class="glow-text">Smart Classes</span>
             </a>
             
             <div class="nav-wrapper">
@@ -37,7 +41,7 @@
                     </ul>
                 </nav>
                 
-                <a href="#contact" class="btn btn-primary header-cta">Enroll Now</a>
+                <a href="#contact" class="btn btn-primary header-cta glow-btn">Enroll Now</a>
             </div>
 
             <button class="mobile-toggle" aria-label="Toggle Menu">
@@ -48,13 +52,25 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+        <!-- Glowing Background Blobs -->
+        <div class="hero-blob blob-red"></div>
+        <div class="hero-blob blob-yellow"></div>
+        
+        <!-- Parallax Floating 3D Elements -->
+        <div class="parallax-wrapper float-1" data-speed="2"><div class="floating-item red-icon"><i class="fas fa-atom"></i></div></div>
+        <div class="parallax-wrapper float-2" data-speed="-1.5"><div class="floating-item yellow-icon"><i class="fas fa-book-open"></i></div></div>
+        <div class="parallax-wrapper float-3" data-speed="1.8"><div class="floating-item red-icon"><i class="fas fa-graduation-cap"></i></div></div>
+        <div class="parallax-wrapper float-4 hide-mobile" data-speed="-2.5"><div class="floating-item yellow-icon"><i class="fas fa-square-root-variable"></i></div></div>
+        <div class="parallax-wrapper float-5 hide-mobile" data-speed="1.2"><div class="floating-item red-icon"><i class="fas fa-flask"></i></div></div>
+
         <div class="container hero-container">
-            <div class="hero-content reveal">
-                <h1>Patna's Trusted Coaching for JEE, NEET & Board Exams</h1>
+            <div class="hero-content reveal fade-up">
+                <div class="title-glow-bg"></div>
+                <h1>Patna's Premium Coaching for <span class="text-gradient">JEE, NEET & Boards</span></h1>
                 <p>Empowering students with concept-based learning, expert faculty, and personalized attention to help them achieve their dream ranks.</p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-secondary">Enroll Now</a>
-                    <a href="#courses" class="btn btn-outline">View Courses</a>
+                    <a href="#contact" class="btn btn-primary glow-btn">Enroll Now <i class="fas fa-arrow-right"></i></a>
+                    <a href="#courses" class="btn btn-outline glass-btn">View Courses</a>
                 </div>
             </div>
         </div>
@@ -63,32 +79,32 @@
     <!-- About Section -->
     <section id="about" class="about section-padding">
         <div class="container">
-            <div class="section-title reveal">
-                <h2>About <span>Us</span></h2>
-                <p>The premier coaching institute in Patna</p>
+            <div class="section-title reveal fade-up">
+                <h2>About <span class="text-gradient">Us</span></h2>
+                <p>The premier modern coaching institute in Patna</p>
             </div>
             <div class="about-grid">
-                <div class="about-text reveal">
-                    <h3>Welcome to Agrawal Smart Classes</h3>
-                    <p>With years of academic excellence, Agrawal Smart Classes has emerged as the most trusted name in Patna for competitive and board exam preparations. We believe in building a strong foundation and focusing on holistic intellectual growth.</p>
-                    <p>Our teaching methodology simplifies complex concepts, ensuring every student reaches their maximum potential.</p>
+                <div class="about-text reveal slide-right">
+                    <h3>Welcome to Agarwal Smart Classes</h3>
+                    <p>With years of academic excellence, Agarwal Smart Classes has emerged as the most trusted name in Patna for competitive and board exam preparations. We believe in building a strong foundation and focusing on holistic intellectual growth.</p>
+                    <p>Our futuristic teaching methodology simplifies complex concepts, ensuring every student reaches their maximum potential.</p>
                 </div>
-                <div class="about-features reveal">
-                    <div class="feature-box">
+                <div class="about-features reveal slide-left">
+                    <div class="feature-box glass-box">
                         <i class="fas fa-chalkboard-teacher"></i>
-                        <h4>Experienced Teachers</h4>
+                        <h4>Expert Faculty</h4>
                     </div>
-                    <div class="feature-box">
+                    <div class="feature-box glass-box">
                         <i class="fas fa-brain"></i>
-                        <h4>Concept-Based Learning</h4>
+                        <h4>Smart Concepts</h4>
                     </div>
-                    <div class="feature-box">
+                    <div class="feature-box glass-box">
                         <i class="fas fa-users"></i>
-                        <h4>Small Batch Sizes</h4>
+                        <h4>Focused Batches</h4>
                     </div>
-                    <div class="feature-box">
+                    <div class="feature-box glass-box">
                         <i class="fas fa-user-check"></i>
-                        <h4>Personal Attention</h4>
+                        <h4>1-on-1 Attention</h4>
                     </div>
                 </div>
             </div>
@@ -96,40 +112,41 @@
     </section>
 
     <!-- Courses Section -->
-    <section id="courses" class="courses section-padding bg-light">
+    <section id="courses" class="courses section-padding">
+        <div class="course-bg-blob"></div>
         <div class="container">
-            <div class="section-title reveal">
-                <h2>Our <span>Courses</span></h2>
+            <div class="section-title reveal fade-up">
+                <h2>Our <span class="text-gradient">Courses</span></h2>
                 <p>Comprehensive programs tailored for absolute success</p>
             </div>
             <div class="course-grid">
                 <!-- Course 1 -->
-                <div class="course-card reveal">
-                    <div class="course-icon"><i class="fas fa-atom"></i></div>
+                <div class="course-card glass-card reveal fade-up" data-delay="100">
+                    <div class="course-icon"><i class="fas fa-rocket"></i></div>
                     <h3>JEE Preparation</h3>
                     <p>Rigorous coaching for JEE Main & Advanced. Master Physics, Chemistry, and Math with our expert faculty.</p>
-                    <a href="#contact" class="btn btn-primary btn-small">Enroll Now</a>
+                    <a href="#contact" class="btn btn-outline glow-border-btn btn-small">Enroll Now</a>
                 </div>
                 <!-- Course 2 -->
-                <div class="course-card reveal">
+                <div class="course-card glass-card reveal fade-up" data-delay="200">
                     <div class="course-icon"><i class="fas fa-dna"></i></div>
                     <h3>NEET Preparation</h3>
                     <p>Targeted medical entrance coaching ensuring top ranks with intensive biology, physics, and chemistry modules.</p>
-                    <a href="#contact" class="btn btn-primary btn-small">Enroll Now</a>
+                    <a href="#contact" class="btn btn-outline glow-border-btn btn-small">Enroll Now</a>
                 </div>
                 <!-- Course 3 -->
-                <div class="course-card reveal">
-                    <div class="course-icon"><i class="fas fa-book-open"></i></div>
+                <div class="course-card glass-card reveal fade-up" data-delay="300">
+                    <div class="course-icon"><i class="fas fa-laptop-code"></i></div>
                     <h3>Class 11 & 12</h3>
-                    <p>Dedicated batches for CBSE, ICSE, and BSEB boards to secure maximum percentage in board exams.</p>
-                    <a href="#contact" class="btn btn-primary btn-small">Enroll Now</a>
+                    <p>Dedicated modern batches for CBSE, ICSE, and BSEB boards to secure maximum percentage in board exams.</p>
+                    <a href="#contact" class="btn btn-outline glow-border-btn btn-small">Enroll Now</a>
                 </div>
                 <!-- Course 4 -->
-                <div class="course-card reveal">
-                    <div class="course-icon"><i class="fas fa-graduation-cap"></i></div>
-                    <h3>Foundation (8, 9, 10)</h3>
+                <div class="course-card glass-card reveal fade-up" data-delay="400">
+                    <div class="course-icon"><i class="fas fa-shapes"></i></div>
+                    <h3>Foundation (8-10)</h3>
                     <p>Early lead programs to build a rock-solid academic foundation for future competitive exams.</p>
-                    <a href="#contact" class="btn btn-primary btn-small">Enroll Now</a>
+                    <a href="#contact" class="btn btn-outline glow-border-btn btn-small">Enroll Now</a>
                 </div>
             </div>
         </div>
@@ -138,42 +155,44 @@
     <!-- Results Section -->
     <section id="results" class="results section-padding">
         <div class="container">
-            <div class="section-title reveal">
-                <h2>Our <span>Results</span></h2>
+            <div class="section-title reveal fade-up">
+                <h2>Our <span class="text-gradient">Results</span></h2>
                 <p>Excellence proven year after year</p>
             </div>
             <div class="results-grid">
-                <div class="result-card reveal">
-                    <div class="result-avatar"><i class="fas fa-user-graduate"></i></div>
+                <div class="result-card glass-box reveal zoom-in">
+                    <div class="result-glow"></div>
+                    <div class="result-avatar"><i class="fas fa-medal"></i></div>
                     <h3>Aman Verma</h3>
-                    <span class="exam-tag">JEE Advanced</span>
-                    <p class="rank">AIR 142</p>
+                    <span class="exam-tag glow-tag">JEE Advanced</span>
+                    <p class="rank">AIR <span class="counter" data-target="142">0</span></p>
                 </div>
-                <div class="result-card reveal">
-                    <div class="result-avatar"><i class="fas fa-user-graduate"></i></div>
+                <div class="result-card glass-box reveal zoom-in" data-delay="150">
+                    <div class="result-glow"></div>
+                    <div class="result-avatar"><i class="fas fa-trophy"></i></div>
                     <h3>Priya Singh</h3>
-                    <span class="exam-tag">NEET UG</span>
-                    <p class="rank">AIR 256</p>
+                    <span class="exam-tag glow-tag">NEET UG</span>
+                    <p class="rank">AIR <span class="counter" data-target="256">0</span></p>
                 </div>
-                <div class="result-card reveal">
-                    <div class="result-avatar"><i class="fas fa-user-graduate"></i></div>
+                <div class="result-card glass-box reveal zoom-in" data-delay="300">
+                    <div class="result-glow"></div>
+                    <div class="result-avatar"><i class="fas fa-star"></i></div>
                     <h3>Rahul Raj</h3>
-                    <span class="exam-tag">BSEB 12th</span>
-                    <p class="rank">State Topper (96%)</p>
+                    <span class="exam-tag glow-tag">BSEB 12th</span>
+                    <p class="rank">State Topper (<span class="counter" data-target="96">0</span>%)</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Location Section -->
-    <section id="location" class="location section-padding bg-light">
+    <section id="location" class="location section-padding">
         <div class="container">
-            <div class="section-title reveal">
-                <h2>Our <span>Location</span></h2>
-                <p>Visit our campus in Patna</p>
+            <div class="section-title reveal fade-up">
+                <h2>Our <span class="text-gradient">Location</span></h2>
+                <p>Visit our smart campus in Patna</p>
             </div>
-            <div class="map-container reveal">
-                <!-- Google Maps Embed for Patna -->
+            <div class="map-container glass-box reveal fade-up">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115132.86107255147!2d85.0606404983377!3d25.60802076410408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f29937c52d4f05%3A0x831a0e05f607b270!2sPatna%2C%20Bihar!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
@@ -182,36 +201,36 @@
     <!-- Contact Section -->
     <section id="contact" class="contact section-padding">
         <div class="container">
-            <div class="section-title reveal">
-                <h2>Contact <span>Us</span></h2>
+            <div class="section-title reveal fade-up">
+                <h2>Contact <span class="text-gradient">Us</span></h2>
                 <p>Take the first step towards a bright future</p>
             </div>
             <div class="contact-grid">
-                <div class="contact-info reveal">
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
+                <div class="contact-info reveal slide-right">
+                    <div class="info-item glass-box">
+                        <i class="fas fa-map-marker-alt glow-icon"></i>
                         <div>
                             <h4>Address</h4>
-                            <p>123, Boring Road, Patna, Bihar 800001</p>
+                            <p>123, Smart Education Hub, Boring Road, Patna, Bihar 800001</p>
                         </div>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-phone-alt"></i>
+                    <div class="info-item glass-box">
+                        <i class="fas fa-phone-alt glow-icon"></i>
                         <div>
                             <h4>Phone</h4>
                             <p>+91 98765 43210</p>
                         </div>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
+                    <div class="info-item glass-box">
+                        <i class="fas fa-envelope glow-icon"></i>
                         <div>
                             <h4>Email</h4>
-                            <p>info@agrawalsmartclasses.in</p>
+                            <p>info@agarwalsmartclasses.in</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="contact-form-container reveal">
+                <div class="contact-form-container glass-box reveal slide-left">
                     <form id="contactForm" class="contact-form">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Student Name" required>
@@ -231,7 +250,7 @@
                         <div class="form-group">
                             <textarea class="form-control" rows="4" placeholder="Any message or query?"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block">Submit Application</button>
+                        <button type="submit" class="btn btn-primary btn-block glow-btn">Submit Application</button>
                     </form>
                 </div>
             </div>
@@ -241,16 +260,18 @@
     <!-- Floating WhatsApp Button -->
     <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
         <i class="fab fa-whatsapp"></i>
+        <div class="pulse-ring"></div>
     </a>
 
-    <!-- Footer -->
+    <!-- Premium Footer -->
     <footer class="footer">
+        <div class="footer-glow-line"></div>
         <div class="container footer-grid">
-            <div class="footer-col">
-                <h3>Agrawal <span>Smart Classes</span></h3>
-                <p>Patna's most trusted coaching institute committed to rendering excellent education for JEE, NEET, and Board aspirants.</p>
+            <div class="footer-col reveal fade-up">
+                <h3>Agarwal <span class="text-gradient">Smart Classes</span></h3>
+                <p>Patna's premium ed-tech coaching institute committed to rendering excellent education for JEE, NEET, and Board aspirants through modern methodology.</p>
             </div>
-            <div class="footer-col">
+            <div class="footer-col reveal fade-up" data-delay="100">
                 <h4>Quick Links</h4>
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -259,7 +280,7 @@
                     <li><a href="#location">Location</a></li>
                 </ul>
             </div>
-            <div class="footer-col">
+            <div class="footer-col reveal fade-up" data-delay="200">
                 <h4>Courses</h4>
                 <ul>
                     <li><a href="#courses">JEE Preparation</a></li>
@@ -268,17 +289,17 @@
                     <li><a href="#courses">Foundation Programs</a></li>
                 </ul>
             </div>
-            <div class="footer-col">
+            <div class="footer-col reveal fade-up" data-delay="300">
                 <h4>Follow Us</h4>
                 <div class="footer-socials">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="glow-social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="glow-social"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="glow-social"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Agrawal Smart Classes. All rights reserved.</p>
+            <p>&copy; 2026 Agarwal Smart Classes. All rights reserved. Designed for Excellence.</p>
         </div>
     </footer>
 
